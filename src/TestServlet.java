@@ -20,12 +20,12 @@ public class TestServlet extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 
-		String username=request.getParameter("username");
-		String password=request.getParameter("password");
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
 		System.out.println(username);
 		System.out.println(password);
 
-		PrintWriter out=response.getWriter();
+		PrintWriter out = response.getWriter();
 		out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
 	}
 
@@ -34,12 +34,12 @@ public class TestServlet extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 
-		String username=request.getParameter("username");
-		String password=request.getParameter("password");
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
 		System.out.println(username);
 		System.out.println(password);
 
-		PrintWriter out=response.getWriter();
+		PrintWriter out = response.getWriter();
 		out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
 	}
 

@@ -15,9 +15,8 @@
 	<br>
 	GET通信
 	<form method="get" action="TestServlet">
-		<input type="text"name="username">
+		<input type="text" name="username">
 		<input type="password" name="password">
-		<input type="submit" value="送信">
 		<input type="submit" value="送信">
 	</form>
 
@@ -25,7 +24,6 @@
 	<form method="post" action="TestServlet">
 		<input type="text" name="username">
 		<input type="password" name="password">
-		<input type="submit" value="送信">
 		<input type="submit" value="送信">
 	</form>
 </body>
